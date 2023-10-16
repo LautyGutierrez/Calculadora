@@ -30,7 +30,7 @@ def hacer_operacion():
     resultado = eval(ecuacion)
     e_texto.delete(0, END)
     e_texto.insert(0, resultado)
-    i = e_texto.size()
+    i = 0
     
 def fail():
    e_texto.delete(0, END)
